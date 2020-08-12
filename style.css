@@ -108,6 +108,44 @@ section {
   float: left;
 }
 
+/* .sousexpleft,
+.sousexpright {
+  width: 40%;
+  float: left;
+} */
+
+.sousexpleft {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.sousexpleft img {
+  width: 100%;
+  max-width: 250px;
+}
+
+.button {
+  width: 100%;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+div.sousexpleft a:link {
+  text-decoration: none;
+  color: blue;
+}
+
+div.sousexpleft a:visited {
+  text-decoration: none;
+  color: orange;
+}
+
+div.sousexpleft a:hover {
+  text-decoration: none;
+  color: orangered;
+}
+
 .sec::after,
 .exp::after,
 .reco::after {
